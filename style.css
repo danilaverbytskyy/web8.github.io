@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    flex: 1 0 auto;
+}
+
+.header div{
+    width: 100%;
+}
+.header_org{
+    display: flex;
+    flex-direction: column;
+}
+.header_nav{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin-top: 70px;
+    width: inherit;
+
+}
+
+.header_nav a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: #30a7df;
+    text-decoration: none;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+}
+.logo_image img{
+    float: left;
+    width:30%;
+}
+.logo_text{
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25x;
+    text-align: center;
+    padding-right: 30px;
+    order:1;
+}
+.content
+{
+    flex: 1 0 auto;
+    max-width: 960px;
+    margin: 20px auto;
+}
+.main{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.main_form{
+    order: 3;
+}
+.main_ad{
+    order:4
+}
+#elem_border{
+    margin: 10px 0 10px;
+    background-color: #3eead3;
+}
+.main_list
+{
+    order: 2;
+    padding: auto;
+}
+.main_list h1, h2, ul
+{
+    padding: 0% auto 0%;
+}
+.main_table{
+    order: 1;
+}
+table.bordered {
+	border-collapse: collapse;
+	border: 1px solid #bcbcbc;
+	width: 100%;
+	background-color: white;
+}
+table.bordered th, table.bordered td {
+	border: 1px solid #bcbcbc;
+	padding: 5px;
+	vertical-align: top;
+}
+table.bordered th {
+	background-color: #ececec;
+	text-align: left;
+	font-weight: bold;
+	color: black;
+}
+table.bordered tbody tr:hover {
+	background-color: #f2f2f2;
+}
+.Efooter{
+    height: 70px;
+    background-color: #3eead3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.Efooter p,span,a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px 10px 35px;
+    color: black;
+}
+#tr-nech{
+    background-color: black;
+}
+.first{
+    background-color: #2a7fb6;
+    color:white;
+}
+#tr-nech td{
+    color: white;
+}
+header img{
+ 
+    float:left;
+    height: 92px;
+    width:100px;
+  }
+  
+  header{
+    color: #EAE7DC;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2); 
+    background-color: #3eead3;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .ht{
+    text-align: center;
+    font-size: 400%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .container-lg{
+    margin-top: 2rem;
+    margin-bottom: 2rem
+  }
+  
+  .nav-item a{
+    font-size: 30px;
+    background-color:  orangered;
+    color:  #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+  }
+  .nav-item a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to left, #E85A4F, #E98074 50%, #8E8D8A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+  }
+@media screen and (min-width: 800px) {
+    .header_nav{
+        flex-direction: row-reverse;
+        order: 1;
+        margin-right: 5%;
+        margin-top: 0;
+        
+    }
+    .header_nav a{
+        font-size: 24px;
+        border: none;
+        background-color: none;
+    }
+    .logo_text{
+        order: 2;
+        padding-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .main{
+        margin-top: 0;
+    }
+    .main_list{
+        order: 1;
+    }
+    .main_table{
+        order: 2;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .ht{
+        font-size:350%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 540px){
+  
+    .ht{
+        font-size:300%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px){
+  
+    .ht{
+        font-size:250%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 420px){
+  
+    .ht{
+        font-size:200%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 360px){
+  
+    .ht{
+        font-size:150%;
+    }
+  
+  }
+
+
+/*popup*/
+.popup-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+
+    justify-content: center;
+    z-index: 999;
+}
+
+.popup-content {
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 7px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+.message {
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

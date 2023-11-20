@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Filipenko Web 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="mb-2" id="elem-border">
+        <div class="container-lg">
+          <img class="mt-1" src="logo.jpg" alt="logo">
+          <div class="ht"><strong>Filipenko Web 3</strong></div>
+        </div>
+      </header>
+  
+      <div class="header_nav" id="elem-border">
+        <a href="#task1" class="nav_item" id="elem-border">Links</a>
+        <a href="#tablez" class="nav_item" id="elem-border">Table</a>
+        <a href="#forma" class="nav_item" id="elem-border">Form</a>
+      </div>
+      </nav>
+    <div class="content">
+        <div class="main">
+            <div class="main_list" id="elem_border">
+                
+                <h1 class="bordered" id="task1">Список ссылок:</h1>
+                <ul>
+                    <li><a href="http://kubsu.ru/">Абсолютная ссылка на главную страницу сайта КубГУ</a></li>
+                    <li><a href="https://kubsu.ru/"> Абсолютная ссылка на главную страницу сайта КубГУ в протоколе https</a></li>
+                    <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="400" height="200" alt="flower"></a></li>
+                    <li>
+                        <p>Список ссылок навигации сайта:</p>
+                        <nav>
+                            <ol>
+                                <li><a href="#task1" title="task">Ссылки</a></li>
+                                <li><a href="#form" title="form">Форма</a></li>
+                            </ol>
+                        </nav>
+                        <br>
+                    </li>
+                    <li><a href="/web2.github.io/first.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+
+                    <li><a href="/web2.github.io/index.html">Сокращенная ссылка на главную страницу</a></li>
+
+
+                    <li><a href="https://www.youtube.com/watch?v=XIMLoLxmTDw&ab_channel=CandRfun&t=1000" target="_blank">Ссылка с тремя параметрами в URL</a></li>
+                    <li> <a href="https://moodle.kubsu.ru/enrol/index.php?id=780">Ссылка с параметром id</a> </li>
+                    <li><a href="first.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                    <li><a href="about/about.html">Относительная ссылка на страницу в каталоге about, где можно найти относительную ссылку на 1 уровень выше</a></li>
+                    <li><a href="about/nextnext/third.html">Относительная ссылка на страницу на 2 уровня ниже, где можно найти относительную ссылку на 2 уровня выше</a></li>
+                    <li>Cсылка на <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82#%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82%D1%8B">фрагмент</a> страницы стороннего сайта</li>
+                    <li>Изучите, пожалуйста, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82#%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F">историю КубГУ</a></li>
+
+                    <li><a>Ссылка без href</a></li>
+                    <li><a href="">Ссылка с пустым href</a></li>
+                    <li><a href="http://example.com" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
+                    <li><a href="http://example.com" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+
+                    <li><a href="ftp://demo:password@test.rebex.net/readme.txt">Ссылка на файл на сервере FTP савторизацией</a></li>
+
+                </ul>
+                <map name="infog">
+                    <area shape="rect"
+                          coords="50,50,110,110"
+                          href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D1%8B%D1%88%D1%8C"
+                          target="_blank"
+                          alt="HTML">
+                    <area shape="circle"
+                          coords="220,80,35"
+                          href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B1%D1%80%D0%B0"
+                          target="_blank"
+                          alt="HTML">
+
+                </map>
+                <img usemap="#infog" src="figures.png" alt="">
+                <br>
+            </div>
+            <div class="main_table" id="elem_border">
+                <table class="bordered">
+                    <h2 class="bordered" id="tablez">Таблица</h2>
+                    
+                        <tr class="first">
+                            <th>Колонка 1 </th>
+                            <th>Колонка 2 </th>
+                            <th>Колонка 3 </th>
+                            <th>Колонка 4 </th>
+                        </tr>
+                        <tr class="second">
+                            <td colspan="2">Ячейка 11 объединенная с 12</td>
+                            <td>Ячейка 13</td>
+                            <td>Ячейка 14</td>
+                        </tr>
+                        <tr class="first">
+                            <td>Ячейка 21</td>
+                            <td>Ячейка 22</td>
+                            <td colspan="2">Ячейка 23 объединенная с 24</td>
+                        </tr>
+                        <tr class="second">
+                            <td>Ячейка 31</td>
+                            <td colspan="3">Ячейка 32 объединенная с 33 и 34</td>
+        
+                        </tr>
+                        <tr class="first">
+                            <td colspan="2">Ячейка 41 объединенная с 42</td>
+                            <td>Ячейка 43</td>
+                            <td>Ячейка 44</td>
+                        </tr>
+                        <tr class="second">
+                            <td>Ячейка 51</td>
+                            <td>Ячейка 52</td>
+                            <td rowspan="2">Ячейка 53 объединенная с 63</td>
+                            <td>Ячейка 54</td>
+                        </tr>
+                        <tr class="first">
+                            <td>Ячейка 61</td>
+                            <td>Ячейка 62</td>
+                            <td>Ячейка 64</td>
+                        </tr>
+                    </table>
+               
+            </div>
+            <div class="main_form" id="elem_border">
+                <h1 class="centr" id="forma" class="bordered">Форма</h1>
+            <form method="POST">
+                <label>
+                    ФИО:<br>
+                    <input name="field-name-1" required pattern="^[a-zA-Zа-яА-Я]+$">
+                </label><br>
+                <label>
+                    Телефон:<br>
+                    <input name="field-tel" required pattern="^[ 0-9]+$">
+                </label><br>
+                <label>
+                    email:<br>
+                    <input name="field-email" type="email" required>
+                </label><br>
+
+                <label>
+                    Дата рождения:<br>
+                    <input name="field-date" type="date" required>
+                </label><br>
+
+                Пол:<br>
+                <label>
+                    <input type="radio" checked="checked" name="radio-group-1" value="Мужчина" required>
+                    Мужчина
+                </label><br>
+                <label>
+                    <input type="radio" name="radio-group-1" value="Женщина" required>
+                    Женщина
+                </label><br>
+
+                Любимый язык программирования: <select required>
+                    <option value="">Java</option>
+                    <option value="">C++</option>
+                    <option value="">Pascal</option>
+                    <option value="">C#</option>
+                    <option value="">JavaScript</option>
+                    <option value="">PHP</option>
+                    <option value="">Python</option>
+                    <option value="">Haskel</option>
+                    <option value="">Clojure</option>
+                    <option value="">Prolog</option>
+                    <option value="">Scala</option>
+                </select>
+
+                <p>Биография:</p>
+                <br>
+                <textarea name="Biography" rows="12" cols="30" placeholder="Напишите о себе" required></textarea>
+                <p>
+                    С контрактом ознакомлен:
+                    <input type="checkbox" required>
+                </p>
+                <input id="down" type="submit" value="Сохранить">
+            </form>
+            </div>
+        </div>
+    </div>
+    <footer class="Efooter">
+        <span>&copy; Филипенко Никита</span>
+    </footer>
+    
+</body>
+</html>

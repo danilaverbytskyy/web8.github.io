@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="top">Задание 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <header class="header text-center mt-5" id="elem-border">
+        <div class="container-lg">
+          <img class="mt-1" src="logo.jpg" alt="logo" class="img-fluid">
+            <h1 class="h3 mb-3 mt-3 font-weight-normal">Мой сайт</h1>
+        </div>
+      </header>
+</div>
+
+    <!-- Navigation -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#task1">Задание 1</a>
+                <a class="nav-item nav-link" href="#table">Таблица</a>
+                <a class="nav-item nav-link" href="#form">Форма</a>
+                <a class="nav-item nav-link" href="#calculator">Калькулятор</a>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="main container">
+            <div class="main_list" id="elem_border">
+                
+                <h1 class="bordered">Список ссылок:</h1>
+                <p><a id="task1">Task 1</a></p>
+                <ul>
+                    <li><a id="link1" href="http://www.kubsu.ru/ru">1.КубГУ1</a></li>
+                    <li><a href="https://www.kubsu.ru/ru">2.КубГУ2</a></li>
+                    <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="200" height="200" alt="flower"></a></li>
+                    <li><a href="/second-page">4.Сокращенная ссылка</a></li>
+                    <li><a href="/">5.Сокращенную на главную</a></li>
+                    <li><a href="#top">6.Link 6(На самый верх страницы)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=xm3YgoEiEDc&t=400s&ab_channel=10Hours&t=10000">7.Ссылка с тремя
+                        параметрами</a></li>
+                    <li><a href="https://example.com?id=5">8.Ссылка с параметром id</a></li>
+                    <li><a href="page.html">9.Относительная на страницу в текущем каталоге</a></li>
+                    <li><a href="./about/about.html">10.About</a></li>
+                    <li><p><a href="../page.html">11.Относительная выше текущего есть на </a></p></li>
+                    <li><p><a href="../../page.html">12.Относительная выше на 2 текущего есть на</a>
+                    </p></li>
+                    <li><p>13. Я люблю <a
+                            href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Гоголя</a>
+                        читать</p></li>
+                    <li><p><a
+                            href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87#%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F">14.Фрагмент
+                        страницы </a></p></li>
+                    <li><a href="">16.Ссылка с пустым href</a></li>
+                    <li><a>17.Ссылка без href</a></li>
+                    <li><a href="https://example.com" rel="nofollow">18.Ссылка запрещенная для поисковиков</a></li>
+                    <li><a href="" rel="noindex">19.Запрещена для индексации поисковиками</a></li>
+                    <li>
+                        <p>20. Список ссылок навигации сайта</p>
+                        <nav>
+                            <ol>
+                                <li><a href="#link1" title="link1">Link 1</a></li>
+                                <li><a href="#form" title="form">Form</a></li>
+                            </ol>
+                        </nav>
+                        <br>
+                    </li>
+                    <li><a href="ftp://demo:password@test.rebex.net/readme.txt">Ссылка на файл на сервере FTP савторизацией</a></li>
+                </ul>
+                <map name="infog">
+                    <area shape="rect"
+                          coords="50,50,110,110"
+                          href="https://ru.wikipedia.org/wiki/Square"
+                          target="_blank"
+                          alt="HTML">
+                    <area shape="circle"
+                          coords="220,80,35"
+                          href="https://ru.wikipedia.org/wiki/Circle"
+                          target="_blank"
+                          alt="HTML">
+
+                </map>
+                <img usemap="#infog" src="figures.png" alt="">
+                <br>
+            </div>
+            <div class="main_table" id="elem_border">
+                <table class="bordered">
+                    <h2 class="bordered" id="table">Таблица</h2>
+                    
+                        <tr class="first">
+                            <th>Колонка 1 </th>
+                            <th>Колонка 2 </th>
+                            <th>Колонка 3 </th>
+                            <th>Колонка 4 </th>
+                        </tr>
+                        <tr class="second">
+                            <td colspan="2">Ячейка 11 объединенная с 12</td>
+                            <td>Ячейка 13</td>
+                            <td>Ячейка 14</td>
+                        </tr>
+                        <tr class="first">
+                            <td>Ячейка 21</td>
+                            <td>Ячейка 22</td>
+                            <td colspan="2">Ячейка 23 объединенная с 24</td>
+                        </tr>
+                        <tr class="second">
+                            <td>Ячейка 31</td>
+                            <td colspan="3">Ячейка 32 объединенная с 33 и 34</td>
+        
+                        </tr>
+                        <tr class="first">
+                            <td colspan="2">Ячейка 41 объединенная с 42</td>
+                            <td>Ячейка 43</td>
+                            <td>Ячейка 44</td>
+                        </tr>
+                        <tr class="second">
+                            <td>Ячейка 51</td>
+                            <td>Ячейка 52</td>
+                            <td rowspan="2">Ячейка 53 объединенная с 63</td>
+                            <td>Ячейка 54</td>
+                        </tr>
+                        <tr class="first">
+                            <td>Ячейка 61</td>
+                            <td>Ячейка 62</td>
+                            <td>Ячейка 64</td>
+                        </tr>
+                    </table>
+               
+            </div>
+            <div class="main_form" id="elem_border">
+                <h1 class="centr" id="form" class="bordered">Форма</h1>
+            <form method="POST">
+                <label>
+                    ФИО:<br>
+                    <input name="field-name-1" required pattern="^[a-zA-Zа-яА-Я]+$">
+                </label><br>
+                <label>
+                    Телефон:<br>
+                    <input name="field-tel" required pattern="^[ 0-9]+$">
+                </label><br>
+                <label>
+                    email:<br>
+                    <input name="field-email" type="email" required>
+                </label><br>
+
+                <label>
+                    Дата рождения:<br>
+                    <input name="field-date" type="date" required>
+                </label><br>
+
+                Пол:<br>
+                <label>
+                    <input type="radio" checked="checked" name="radio-group-1" value="Мужчина" required>
+                    Мужчина
+                </label><br>
+                <label>
+                    <input type="radio" name="radio-group-1" value="Женщина" required>
+                    Женщина
+                </label><br>
+
+                Любимый язык программирования: <select required>
+                    <option value="">Java</option>
+                    <option value="">C++</option>
+                    <option value="">Pascal</option>
+                    <option value="">C#</option>
+                    <option value="">JavaScript</option>
+                    <option value="">PHP</option>
+                    <option value="">Python</option>
+                    <option value="">Haskel</option>
+                    <option value="">Clojure</option>
+                    <option value="">Prolog</option>
+                    <option value="">Scala</option>
+                </select>
+
+                <p>Биография:</p>
+                <br>
+                <textarea name="Biography" rows="12" cols="30" placeholder="Напишите о себе" required></textarea>
+                <p>
+                    С контрактом ознакомлен:
+                    <input type="checkbox" required>
+                </p>
+                <input id="down" type="submit" value="Сохранить">
+            </form>
+            </div>
+        </div>
+        <h2 class="calculator" id="calculator">Составьте свой заказ</h2>
+        <form>
+            <p>Выберите товар:
+                <select name="myselect" required>
+                    <option value="1">Картошка 78 руб.</option>
+                    <option value="2">Американо 33 руб.</option>
+                    <option value="3">Наполеон 117 руб.</option>
+                </select>
+            </p>
+
+            <p>Введите количество: <input id="quantity" class="quantity"></p>
+
+            <div class="myradios" id="myradios">
+                <label><input type="radio" name="myradio" value="40">Кетчуп</label>
+                <label><input type="radio" name="myradio" value="40">Сырный соус</label>
+                <label><input type="radio" name="myradio" value="40">Чесночный соус</label>
+            </div>
+
+            <p class="mycheckbox" id="mycheckbox">
+                <label>
+                    Нужен пакетик? <input value="10" type="checkbox">
+                </label>
+            </p>
+
+        </form>
+
+        <button id="button">Calculate</button>
+        <p id="finalPrice"></p>
+        <script src="calculate.js"></script>
+
+        <div class="order-3 mx-3 justify-content-center" id="elem-border">
+            <h1>Форма обратной связи</h1>
+            <br>
+            <button id="openPopup">Свяжитесь с нами</button>
+
+            <div class="popup-overlay"> <div class="popup-content"> <form id="feedbackForm"> <div class="form-group"> <label for="fullName">ФИО:</label> <input type="text" id="fullName" name="fullName" required> </div> <div class="form-group"> <label for="email">Email:</label> <input type="email" id="email" name="email" required> </div> <div class="form-group"> <label for="phone">Телефон:</label> <input type="tel" id="phone" name="phone" required> </div> <div class="form-group"> <label for="organization">Организация:</label> <input type="text" id="organization" name="organization"> </div> <div class="form-group"> <label for="message">Сообщение:</label> <textarea id="message" name="message" rows="5" required></textarea> </div> <div class="checkbox-group"> <input type="checkbox" id="agreement" name="agreement" required> <label for="agreement">Я согласен с политикой обработки персональных данных.</label> </div> <div class="submit-button"> <button type="submit">Отправить</button> </div> </form>
+                <div class="message" id="responseMessage"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 Efooter">
+        <div class="container text-center">
+            <span>&copy; Danila Verbytskyy 2023</span>
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="scriptpopup.js"></script>
+</body>
+</html>
